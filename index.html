@@ -1,73 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description"
-        content="Comparação de políticas, ações e resultados de governos brasileiros com base em fontes verificáveis.">
+    <meta
+      name="description"
+      content="Comparação de políticas, ações e resultados de governos brasileiros com base em fontes verificáveis."
+    />
 
     <title>Brasil em Comparação</title>
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-
+  <body>
     <header class="header">
+      <div class="container header-content">
+        <a href="#" class="logo"> Brasil em Comparação </a>
 
-        <div class="container header-content">
-
-            <a href="#" class="logo">
-                Brasil em Comparação
-            </a>
-
-            <nav class="nav">
-
-                <a href="#inicio">Início</a>
-                <a href="#comparacoes">Comparações</a>
-                <a href="#metodologia">Metodologia</a>
-                <a href="#fontes">Fontes</a>
-
-            </nav>
-
-        </div>
-
+        <nav class="nav">
+          <a href="#inicio">Início</a>
+          <a href="#comparacoes">Comparações</a>
+          <a href="#metodologia">Metodologia</a>
+          <a href="#fontes">Fontes</a>
+        </nav>
+      </div>
     </header>
 
-
     <main>
+      <!-- HERO -->
 
-        <!-- HERO -->
+      <section id="inicio" class="hero">
+        <div class="container">
+          <span class="tag"> Dados • Documentos • Fontes </span>
 
-        <section id="inicio" class="hero">
+          <h1>Despolarize-se</h1>
 
-            <div class="container">
+          <p>
+            Compare ações, políticas públicas e resultados de diferentes
+            governos a partir de documentos, dados oficiais e fontes
+            jornalísticas.
+          </p>
 
-                <span class="tag">
-                    Dados • Documentos • Fontes
-                </span>
-
-                <h1>
-                    Despolarize-se
-                </h1>
-
-                <p>
-                    Compare ações, políticas públicas e resultados
-                    de diferentes governos a partir de documentos,
-                    dados oficiais e fontes jornalísticas.
-                </p>
-
-                <a href="#comparacoes" class="button">
-                    Ver comparações
-                </a>
-
-            </div>
-
-        </section>
-
+          <a href="#comparacoes" class="button"> Ver comparações </a>
+        </div>
+      </section>
 
       <!-- FILTROS 
 
@@ -93,266 +72,623 @@
         </section>
 
         -->
-        <!-- COMPARAÇÃO -->
-
-        <section id="comparacoes" class="comparison">
-
-            <div class="container">
-
-                <div class="comparison-table">
-
-                    <!-- CABEÇALHO -->
-
-                    <div class="table-header">
-
-                        <div>
-                            Tema
-                        </div>
-
-                        <div>
-                            Governo Bolsonaro
-                        </div>
-
-                        <div>
-                            Governo Lula
-                        </div>
-
-                    </div>
-
-
-                    <!-- LINHA -->
-
-                    <article class="comparison-row">
-
-                        <div class="topic">
-
-                            <h3>
-                                Vacinação
-                            </h3>
-
-                        </div>
-
-
-                        <div class="government-column">
-                            <span class="trouble">Pandemia Covid-19</span>
-                            <p>
-                                Durante a pandemia, o govero de Jair Messias Bolsonaro poderia ter comprado e incluido no SUS a vacina para o tratamento do COVID-19 antes de muitas mortes acontecerem, podendo sanar a crise 
-                            </p>
-
-                            <div class="sources">
-
-                                <strong>Fontes:</strong>
-
-                                <a href="#">
-                                    Documento oficial
-                                </a>
-
-                                <a href="#">
-                                    Reportagem
-                                </a>
-
-                                <a href="#">
-                                    Documento original
-                                </a>
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="government-column">
-
-                            <p>
-                                Descrição objetiva da ação,
-                                decisão ou política adotada
-                                durante o período.
-                            </p>
-
-                            <div class="sources">
-
-                                <strong>Fontes:</strong>
-
-                                <a href="#">
-                                    Documento oficial
-                                </a>
-
-                                <a href="#">
-                                    Reportagem
-                                </a>
-
-                                <a href="#">
-                                    Documento original
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- OUTRA LINHA -->
-
-                    <article class="comparison-row">
-
-                        <div class="topic">
-
-                            <h3>
-                                Dengue
-                            </h3>
-
-                            <span>
-                                Vacinação
-                            </span>
-
-                        </div>
-
-
-                        <div class="government-column">
-
-                            <p>
-                                Informações documentadas
-                                sobre a política adotada.
-                            </p>
-
-                            <div class="sources">
-
-                                <strong>Fontes:</strong>
-
-                                <a href="#">
-                                    Ministério da Saúde
-                                </a>
-
-                                <a href="#">
-                                    Anvisa
-                                </a>
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="government-column">
-
-                            <p>
-                                Informações documentadas
-                                sobre a política adotada.
-                            </p>
-
-                            <div class="sources">
-
-                                <strong>Fontes:</strong>
-
-                                <a href="#">
-                                    Ministério da Saúde
-                                </a>
-
-                                <a href="#">
-                                    Anvisa
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
+      <!-- COMPARAÇÃO -->
+      <section id="comparacoes" class="comparison">
+        <div class="container">
+          <div class="comparison-table">
+            <!-- CABEÇALHO DA TABELA -->
+            <div class="table-header">
+              <div>Tema</div>
+              <div>Governo Bolsonaro</div>
+              <div>Governo Lula</div>
             </div>
 
-        </section>
+            <!-- LINHA DE COMPARAÇÃO: VACINAÇÃO E RESPOSTA EPIDEMIOLÓGICA -->
+            <article class="comparison-row">
+              <div class="topic">
+                <h3>Vacinação e Resposta Epidemiológica</h3>
+              </div>
 
+              <!-- Coluna Governo Bolsonaro -->
+              <div class="government-column">
+                <span class="trouble">Pandemia de Covid-19</span>
+                <p>
+                  A Pfizer apresentou sua primeira oferta formal ao Ministério
+                  da Saúde em 14 de agosto de 2020, quando o Brasil já
+                  contabilizava mais de 105 mil mortes por Covid-19. As
+                  propostas ofereciam inicialmente 30 milhões ou 70 milhões de
+                  doses, com possibilidade de entregas ainda em 2020. Novas
+                  propostas foram apresentadas em agosto e posteriormente em
+                  novembro de 2020 e fevereiro de 2021. O primeiro contrato, de
+                  100 milhões de doses, foi firmado em março de 2021, quando o
+                  Brasil já se aproximava de 300 mil mortes.
+                </p>
 
-        <!-- METODOLOGIA -->
+                <span class="bonus-title"
+                  >Ações e Controvérsias Adicionais:</span
+                >
+                <ul>
+                  <li>
+                    Incentivo e divulgação, por integrantes do governo, de
+                    medicamentos como cloroquina/hidroxicloroquina e ivermectina
+                    para tratamento da Covid-19, apesar da posterior ausência de
+                    evidências de benefício clínico e das recomendações
+                    contrárias de órgãos de saúde.
+                  </li>
 
-        <section id="metodologia" class="methodology">
+                  <li>
+                    Adesão, em setembro de 2020, ao COVAX Facility, com
+                    contratação de aproximadamente 42,5 milhões de doses,
+                    quantidade correspondente a cerca de 10% da população
+                    brasileira.
+                  </li>
 
-            <div class="container">
+                  <li>
+                    Negociação com a AstraZeneca e a Fiocruz a partir de
+                    junho/julho de 2020 para aquisição e produção nacional da
+                    vacina de Oxford. O Contrato de Encomenda Tecnológica foi
+                    posteriormente assinado em setembro de 2020, prevendo
+                    inicialmente 100,4 milhões de doses.
+                  </li>
 
-                <span class="tag">
-                    Transparência
-                </span>
+                  <li>
+                    Declarações públicas do então presidente Jair Bolsonaro
+                    questionando medidas de prevenção e aspectos relacionados às
+                    vacinas durante a pandemia, em contraste com as orientações
+                    sanitárias oficiais.
+                  </li>
+                </ul>
+                <div class="sources">
+                  <strong>Fontes:</strong>
 
-                <h2>
-                    Como as informações são avaliadas?
-                </h2>
+                  <a
+                    href="https://www12.senado.leg.br/noticias/materias/2021/05/13/representante-da-pfizer-confirma-governo-nao-respondeu-ofertas-feitas-em-agosto-de-2020"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Senado Federal — Pfizer confirma ofertas feitas em agosto de
+                    2020
+                  </a>
 
-                <div class="methodology-grid">
+                  <a
+                    href="https://www12.senado.leg.br/noticias/audios/2021/05/pfizer-confirma-que-ofereceu-100-milhoes-de-doses-da-vacina-a-partir-de-agosto"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Senado Federal — Pfizer confirma oferta de 100 milhões de
+                    doses
+                  </a>
 
-                    <article>
-                        <h3>1. Fonte primária</h3>
+                  <a
+                    href="https://www2.senado.leg.br/bdsf/bitstream/handle/id/607974/CPI_pandemia_relatorio_final_2021.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Senado Federal — Relatório Final da CPI da Pandemia
+                  </a>
 
-                        <p>
-                            Sempre que possível, utilizamos documentos
-                            oficiais, legislação, dados públicos,
-                            contratos e relatórios.
-                        </p>
-                    </article>
+                  <a
+                    href="https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2020/nota-vacina-pfizer"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Anvisa — Nota sobre a vacina da Pfizer
+                  </a>
 
+                  <a
+                    href="https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2021/esclarecimento-sobre-a-analise-de-vacinas-covid-19-pela-anvisa"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Anvisa — Esclarecimento sobre a análise das vacinas
+                  </a>
 
-                    <article>
-                        <h3>2. Fontes independentes</h3>
+                  <a
+                    href="https://www12.senado.leg.br/noticias/infomaterias/2021/10/o-caminho-da-cpi-da-pandemia-da-instalacao-ao-relatorio-final"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Senado Federal — O caminho da CPI da Pandemia
+                  </a>
 
-                        <p>
-                            Informações relevantes podem ser
-                            complementadas por veículos jornalísticos
-                            e instituições de pesquisa.
-                        </p>
-                    </article>
+                  <a
+                    href="https://www.gov.br/conitec/pt-br/midias/consultas/relatorios/2021/20211112_diretrizes_brasileiras_para_tratamento_medicamentoso_ambulatorial_do_paciente_com_covid-19.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Conitec — Diretrizes para tratamento medicamentoso
+                    ambulatorial da Covid-19
+                  </a>
 
+                  <a
+                    href="https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2022/nota-tecnica-ivermectina-covid-19"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ministério da Saúde — Nota técnica sobre ivermectina
+                  </a>
 
-                    <article>
-                        <h3>3. Contexto</h3>
+                  <a
+                    href="https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/mpv/mpv1003.htm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Planalto — MP nº 1.003/2020 — Adesão ao COVAX Facility
+                  </a>
 
-                        <p>
-                            Os dados devem ser apresentados considerando
-                            período, população, orçamento e circunstâncias.
-                        </p>
-                    </article>
+                  <a
+                    href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/covid-19/vacinas/pdfs/relatorio_1___gt_vacinas_final-0017669660.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ministério da Saúde — Relatório sobre vacinas contra a
+                    Covid-19
+                  </a>
 
+                  <a
+                    href="https://www.gov.br/anvisa/pt-br/comunicacao/campanhas/coronavirus/vacinas/covax-facility"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Anvisa — COVAX Facility
+                  </a>
 
-                    <article>
-                        <h3>4. Correções</h3>
+                  <a
+                    href="https://www.fiotec.fiocruz.br/pt/noticias/outros/covid-19-fiocruz-firmara-acordo-para-produzir-vacina-da-universidade-de-oxford"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Fiocruz — Acordo para produção da vacina de Oxford
+                  </a>
 
-                        <p>
-                            Informações poderão ser atualizadas quando
-                            novas evidências ou documentos forem
-                            disponibilizados.
-                        </p>
-                    </article>
+                  <a
+                    href="https://www.fiotec.fiocruz.br/pt/noticias/outros/fiocruz-e-astrazeneca-alinham-detalhes-para-producao-de-vacina-para-covid-19"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Fiocruz — Detalhes do acordo com a AstraZeneca
+                  </a>
 
+                  <a
+                    href="https://www.fiotec.fiocruz.br/pt/noticias/outros/em-nota-fiocruz-esclarece-sobre-contrato-de-transferencia-tecnologica-com-astrazeneca"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Fiocruz — Esclarecimento sobre o contrato com a AstraZeneca
+                  </a>
+
+                  <a
+                    href="https://www.gov.br/saude/pt-br/arquivos/2020/20201030_cgpclin_decit_sctie_ms_relatorio_tecnico_monitoramento_vacinas_sars-cov-2_final.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ministério da Saúde — Relatório técnico de monitoramento das
+                    vacinas
+                  </a>
+
+                  <a
+                    href="https://www.biblioteca.presidencia.gov.br/presidencia/ex-presidentes/bolsonaro/pronunciamentos-oficiais/pronunciamento-do-senhor-presidente-da-republica-jair-bolsonaro-em-cadeia-de-radio-e-televisao-31-de-marco-de-2020"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Presidência da República — Pronunciamento de 31 de março de
+                    2020
+                  </a>
                 </div>
+              </div>
+              <!-- Coluna Governo Lula -->
+              <div class="government-column">
+                <span class="trouble">Epidemia de Dengue</span>
+                <p>
+                  A vacina Qdenga (Takeda) foi aprovada pela Anvisa em 2 de
+                  março de 2023, indicada para pessoas de 4 a 60 anos, com
+                  esquema de duas doses. O Ministério da Saúde, após avaliação
+                  da Conitec e considerando a limitada capacidade de produção
+                  global do fabricante, incorporou o imunizante ao SUS em 21 de
+                  dezembro de 2023 — quando o país já registrava 1.079 mortes
+                  confirmadas por dengue no ano (recorde à época, superando as
+                  1.053 de 2022) e cerca de 1,65 milhão de casos prováveis. A
+                  vacinação pública iniciou em fevereiro de 2024, restrita
+                  inicialmente à faixa etária de 10 a 14 anos e a 521 municípios
+                  prioritários, devido à escassez de doses (cerca de 5,2 milhões
+                  previstas para 2024). Em 2024, o Brasil bateu o recorde
+                  histórico da série do Ministério da Saúde, com 6.484.890 casos
+                  prováveis e 5.972 mortes confirmadas pela doença.
+                </p>
+                <span class="bonus-title"
+                  >Ações e Controvérsias Adicionais:</span
+                >
+                <ul>
+                  <li>
+                    Criação do Centro de Operações de Emergência (COE Dengue e
+                    outras Arboviroses) em fevereiro de 2024 (Portaria GM/MS nº
+                    3.140/2024), depois reativado em 2025, para coordenar a
+                    resposta nacional. Expansão do Método Wolbachia (mosquitos
+                    <em>Aedes aegypti</em> infectados com a bactéria que
+                    bloqueia a transmissão do vírus), conduzido pela
+                    Fiocruz/World Mosquito Program, com novos municípios a
+                    partir de 2023–2024 e inauguração da maior biofábrica do
+                    mundo em Curitiba (2025).
+                  </li>
+                  <li>
+                    Críticas de especialistas e da imprensa à resposta
+                    considerada reativa: redução de gastos com campanhas de
+                    comunicação em 2023, demora na incorporação da vacina (9
+                    meses após aprovação da Anvisa) e atraso em medidas
+                    preventivas pré-sazonais e de combate ao vetor, apesar de
+                    alertas da Fiocruz e da OMS sobre o risco de epidemia em
+                    2024.
+                  </li>
+                  <li>
+                    Liberação de verbas emergenciais suplementares (R$ 256
+                    milhões em 2023 e R$ 241 milhões em 2024) e insumos (testes,
+                    larvicidas e adulticidas) para estados e municípios que
+                    decretaram estado de emergência em saúde pública.
+                  </li>
+                  <li>
+                    Negociações e pedido formal (outubro de 2024) de parceria
+                    entre Fiocruz e Takeda para transferência de tecnologia e
+                    produção local da Qdenga via Parceria de Desenvolvimento
+                    Produtivo (PDP). O Ministério da Saúde não aprovou o projeto
+                    em 2026 por não garantir transferência completa do Insumo
+                    Farmacêutico Ativo (IFA).
+                  </li>
+                </ul>
+                <div class="sources">
+                  <strong>Fontes:</strong>
+                  <a
+                    href="https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2023/anvisa-aprova-nova-vacina-para-a-dengue"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Aprovação da Qdenga (Anvisa, 02/03/2023)</a
+                  >
+                  <a
+                    href="https://www.gov.br/saude/pt-br/assuntos/noticias/2023/dezembro/ministerio-da-saude-incorpora-vacina-contra-a-dengue-no-sus"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Incorporação ao SUS (Ministério da Saúde / Conitec,
+                    21/12/2023)</a
+                  >
+                  <a
+                    href="https://g1.globo.com/saude/noticia/2023/12/21/ministerio-da-saude-incorpora-vacina-da-dengue-no-sus.ghtml"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Incorporação e limitação de doses (G1)</a
+                  >
+                  <a
+                    href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue/faq/vacinacao/em-qual-faixa-etaria-que"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Faixa etária prioritária 10–14 anos (Ministério da
+                    Saúde)</a
+                  >
+                  <a
+                    href="https://oglobo.globo.com/saude/noticia/2023/12/29/dengue-brasil-bate-recorde-de-mortes-pela-doenca-em-2023.ghtml"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >1.079 mortes em 2023 (O Globo / painel MS)</a
+                  >
+                  <a
+                    href="https://agenciabrasil.ebc.com.br/saude/noticia/2025-01/casos-de-dengue-em-2024-passam-de-64-milhoes-mortes-somam-59-mil"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Recorde 2024: 6,48 milhões de casos e 5.972 mortes (Agência
+                    Brasil / painel MS)</a
+                  >
+                  <a
+                    href="https://www.gov.br/saude/pt-br/composicao/svsa/coes/dengue-e-outras-arboviroses"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >COE Dengue (Ministério da Saúde)</a
+                  >
+                  <a
+                    href="https://fiocruz.br/noticia/2024/03/bacteria-wolbachia-historia-do-metodo-que-se-fortalece-no-combate-dengue-no-brasil"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Método Wolbachia e expansão (Fiocruz)</a
+                  >
+                  <a
+                    href="https://www.gov.br/saude/pt-br/assuntos/noticias/2025/julho/ministerio-da-saude-inaugura-a-maior-biofabrica-de-wolbachia-do-mundo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Maior biofábrica Wolbachia (Ministério da Saúde, 2025)</a
+                  >
+                  <a
+                    href="https://www.estadao.com.br/saude/falhas-do-ministerio-da-saude-agravaram-epidemia-da-dengue-veja-principais-erros/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Críticas à resposta reativa e redução de campanhas
+                    (Estadão)</a
+                  >
+                  <a
+                    href="https://valor.globo.com/empresas/noticia/2024/10/16/fiocruz-e-takeda-entram-com-pedido-para-producao-de-vacina-contra-a-dengue-no-brasil.ghtml"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Pedido de PDP Fiocruz–Takeda (Valor Econômico)</a
+                  >
+                  <a
+                    href="https://www.metropoles.com/saude/ministerio-barra-vacina-qdenga"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Não aprovação da PDP pelo Ministério da Saúde (2026)</a
+                  >
+                  <a
+                    href="https://www.gazetadopovo.com.br/vida-e-cidadania/oposicao-acusa-governo-adotar-vacina-butantan-sem-aval-conitec/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Questionamentos sobre priorização Butantan (Gazeta do
+                    Povo)</a
+                  >
+                </div>
+              </div>
+            </article>
+            <!-- FIM DA LINHA -->
 
-            </div>
+            <article class="comparison-row">
+              <div class="topic">
+                <h3>Abuso de poder e beneficios</h3>
+                <h4 class="Observacao">
+                  Observação: De acordo com a legislção elitoral, o uso da
+                  maquina pra aumentar beneficios sociais na vesperas se
+                  enquadra como Abuso de poder economico
+                </h4>
+              </div>
 
-        </section>
+              <!-- Coluna Governo Bolsonaro -->
+              <div class="government-column">
+                <span class="trouble"
+                  >Aumento do Auxílio Brasil e PEC dos Precatórios (2022)</span
+                >
+                <p>
+                  Às vésperas do período eleitoral de 2022, o governo aprovou a
+                  PEC dos Precatórios e a PEC Kamikaze (EC 123/2022), decretando
+                  "estado de emergência" para contornar a legislação eleitoral e
+                  expandir o Auxílio Brasil de R$ 400 para R$ 600 até dezembro.
+                  As medidas postergaram dívidas judiciais da União e
+                  contornaram o Teto de Gastos, gerando duras críticas de
+                  economistas sobre o uso de benefícios sociais com fins
+                  eleitorais e o impacto fiscal de curto prazo.
+                </p>
 
+                <span class="bonus-title"
+                  >Ações e Controvérsias Adicionais:</span
+                >
+                <ul>
+                  <li>
+                    Criação do Auxílio Caminhoneiro e Auxílio Taxista com
+                    vigência temporária limitada até o final de 2022.
+                  </li>
+                  <li>
+                    Liberação do consignado do Auxílio Brasil via Caixa
+                    Econômica Federal no período entre os dois turnos
+                    eleitorais.
+                  </li>
+                  <li>
+                    Substituição definitiva do programa Bolsa Família pelo
+                    Auxílio Brasil no final de 2021.
+                  </li>
+                  <li>
+                    Aprovação de isenção e redução de impostos federais sobre
+                    combustíveis (PIS/Cofins) para conter a inflação em ano
+                    eleitoral.
+                  </li>
+                </ul>
+
+                <div class="sources">
+                  <strong>Fontes:</strong>
+
+                  <a
+                    href="https://www12.senado.leg.br/noticias/materias/2022/07/14/congresso-promulga-pec-dos-beneficios"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Promulgação da PEC Kamikaze (Senado Federal)
+                  </a>
+
+                  <a
+                    href="https://www.camara.leg.br/noticias/838384-promulgada-emenda-constitucional-da-pec-dos-precatorios/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Aprovação da PEC dos Precatórios (Câmara dos Deputados)
+                  </a>
+
+                  <a
+                    href="https://g1.globo.com/economia/noticia/2022/07/13/entenda-a-pec-kamikaze-medida-que-aumenta-gastos-as-vesperas-da-eleicao.ghtml"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Análise dos Impactos da PEC dos Benefícios (G1)
+                  </a>
+                </div>
+              </div>
+
+              <!-- Coluna Governo Lula -->
+              <div class="government-column">
+                <span class="trouble"
+                  >PEC da Transição e Reestruturação do Bolsa Família</span
+                >
+                <p>
+                  Ainda na transição de governo em 2022, aprovou-se a PEC da
+                  Transição (EC 126/2022) para abrir espaço fiscal de ~R$ 170
+                  bilhões fora do Teto de Gastos, garantindo a manutenção do
+                  Bolsa Família em R$ 600 e o adicional de R$ 150 por criança.
+                  Críticos apontaram expansão excessiva do gasto público,
+                  enquanto defensores alegaram necessidade social diante do
+                  orçamento deixado para 2023.Além disso, entre 2023 e 2026 não houve aumento do bolsa familia pela inflação. O unico aumento que teve foi as vesperas das eleiçoes de 2026, de 15%
+                </p>
+                <p><span>Critica:</span> Porque o beneficios não sofreu amentos sucessivos de acordo a inflção e somente sofreu aumento perto das eleiçoes? </p>
+                <span class="bonus-title"
+                  >Ações e Controvérsias Adicionais:</span
+                >
+                <ul>
+                  <li>
+                    Substituição do antigo Teto de Gastos pelo Novo Arcabouço
+                    Fiscal (Lei Complementar 200/2023).
+                  </li>
+                  <li>
+                    Operação de pente-fino no cadastro do Bolsa Família, que
+                    removeu milhões de famílias unipessoais irregulares.
+                  </li>
+                  <li>
+                    Aprovação do socorro financeiro extraordinário ao Rio Grande
+                    do Sul em 2024 via crédito extraordinário fora das metas
+                    fiscais.
+                  </li>
+                  <li>
+                    Revisão do valor do salário mínimo acima da inflação e
+                    criação do programa Pé-de-Meia para estudantes do ensino
+                    médio.
+                  </li>
+                </ul>
+
+                <div class="sources">
+                  <strong>Fontes:</strong>
+
+                  <a
+                    href="https://www12.senado.leg.br/noticias/materias/2022/12/21/congresso-promulga-pec-da-transicao"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Promulgação da PEC da Transição (Senado Federal)
+                  </a>
+
+                  <a
+                    href="https://www.gov.br/mds/pt-br/noticias-e-conteudos/novo-bolsa-familia"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Reestruturação do Bolsa Família (Ministério do
+                    Desenvolvimento Social)
+                  </a>
+
+                  <a
+                    href="https://www.tesourotransparente.gov.br"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Relatórios de Execução Orçamentária e Arcabouço Fiscal
+                    (Tesouro Nacional)
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- FIM DE .comparison-table -->
+        </div>
+        <!-- FIM DE .container -->
+      </section>
+      <!-- FIM DE #comparacoes -->
+
+      <!-- METODOLOGIA -->
+
+      <section id="metodologia" class="methodology">
+        <div class="container">
+          <span class="tag"> Transparência </span>
+
+          <h2>Como as informações são avaliadas?</h2>
+
+          <div class="methodology-grid">
+            <article>
+              <h3>1. Fonte primária</h3>
+
+              <p>
+                Sempre que possível, utilizamos documentos oficiais, legislação,
+                dados públicos, contratos e relatórios.
+              </p>
+            </article>
+
+            <article>
+              <h3>2. Fontes independentes</h3>
+
+              <p>
+                Informações relevantes podem ser complementadas por veículos
+                jornalísticos e instituições de pesquisa.
+              </p>
+            </article>
+
+            <article>
+              <h3>3. Contexto</h3>
+
+              <p>
+                Os dados devem ser apresentados considerando período, população,
+                orçamento e circunstâncias.
+              </p>
+            </article>
+
+            <article>
+              <h3>4. Correções</h3>
+
+              <p>
+                Informações poderão ser atualizadas quando novas evidências ou
+                documentos forem disponibilizados.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
 
-
     <footer id="fontes">
+      <div class="container">
+        <h2>Brasil em Comparação</h2>
 
-        <div class="container">
+        <p>
+          Projeto independente de organização e comparação de informações
+          públicas.
+        </p>
 
-            <h2>
-                Brasil em Comparação
-            </h2>
-
-            <p>
-                Projeto independente de organização e comparação
-                de informações públicas.
-            </p>
-
-            <p>
-                As fontes utilizadas são identificadas em cada
-                comparação.
-            </p>
-
-        </div>
-
+        <p>As fontes utilizadas são identificadas em cada comparação.</p>
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>
+<!--
+
+<article class="comparison-row">
+              <div class="topic">
+                <h3>/h3>
+              </div>
+
+              
+              <div class="government-column">
+                <span class="trouble"></span>
+                <p></p>
+                </p>
+                <p><span>Critica:</span> </p>
+                <span class="bonus-title"
+                  >Ações e Controvérsias Adicionais:</span
+                >
+                <ul>
+                  <li>
+                </ul>
+
+                 <div class="sources">
+                  <strong>Fontes:</strong>
+                  <a></a>
+                 </div>
+            </div>
+            
+            <div class="government-column">
+                <span class="trouble"></span>
+                <p></p>
+                </p>
+                <p><span>Critica:</span> </p>
+                <span class="bonus-title"
+                  >Ações e Controvérsias Adicionais:</span
+                >
+                <ul>
+                  <li>
+                </ul>
+
+                 <div class="sources">
+                  <strong>Fontes:</strong>
+                  <a></a>
+                 </div>
+            </div>
+
+        </article>           
+
+
+
+-->
